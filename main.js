@@ -99,7 +99,7 @@
 // }
 // let ultra = new UltraBook(4,200,'Ultrabook',14,2.5);
 
-///////////////////////////////
+
 // - Створити функцію конструктор яка дозволяє створювати об'єкти car, з властивостями модель,
 // виробник, рік випуску, максимальна швидкість, об'єм двигуна. додати в об'єкт функції:
 // -- drive () - яка виводить в консоль "їдемо зі швидкістю {максимальна швидкість} на годину"
@@ -175,4 +175,73 @@
 // -створити класс попелюшка з полями ім'я, вік, розмір ноги
 // --Створити 10 попелюшок , покласти їх в масив
 // --Сторити об'єкт класу "принц" за допомоги класу який має поля ім'я, вік, туфелька яку він знайшов.
-// -- за допоиоги циклу знайти яка попелюшка повинна бути з принцом
+// // -- за допоиоги циклу знайти яка попелюшка повинна бути з принцом
+// class Girl {
+//     constructor(name,age,footSize) {
+//         this.name = name;
+//         this.age = age;
+//         this.footSize = footSize;
+//     }}
+// class Prince {
+//         constructor(name,age,shoeSize) {
+//             this.name = name;
+//             this.age = age;
+//             this.shoeSize = shoeSize;
+//         }
+//         findGirl(array){
+//             for (const arrayElement of array) {
+//                if(arrayElement.footSize === prince.shoeSize) {
+//                    console.log(`${arrayElement.name} is your destiny`)
+//                }
+//             }
+//         }
+// }
+// const girls =[
+//     new Girl('Masha',25,32),
+//     new Girl('Dasha',25,33),
+//     new Girl('Sasha',25,34),
+//     new Girl('Natasha',25,35),
+//     new Girl('Sveta',25,36),
+//     new Girl('Tanya',25,37),
+//     new Girl('Anya',25,38),
+//     new Girl('Lena',25,39),
+//     new Girl('Olya',25,40)
+// ];
+// const prince = new Prince('Vasilij',30,36);
+// prince.findGirl(girls);
+
+// -створити функцію конструктор попелюшка з полями ім'я, вік, розмір ноги
+// --Створити 10 попелюшок , покласти їх в масив
+// --Сторити об'єкт типу "принц" за допомоги функції конструктора з полями ім'я, вік, туфелька яку він знайшов, та функцію "пошук попелюшки"
+// -- функція повинна приймати масив попелюшок, та шукає ту котра йому підходить
+// function Girl(name,age,footSize){
+//     this.name = name;
+//     this.age = age;
+//     this.footSize = footSize;
+// }
+// function Prince(name,age,shoeSize){
+//     this.name = name;
+//     this.age = age;
+//     this.shoeSize = shoeSize;
+//     this.search = function (array) {
+//         for (const arrayElement of array) {
+//             if(arrayElement.footSize === prince.shoeSize){
+//                 console.log(`${arrayElement.name} is your destiny`);
+//             }
+//
+//         }
+//     }
+// }
+// const girls =[
+//     new Girl('Masha',25,32),
+//     new Girl('Dasha',25,33),
+//     new Girl('Sasha',25,34),
+//     new Girl('Natasha',25,35),
+//     new Girl('Sveta',25,36),
+//     new Girl('Tanya',25,37),
+//     new Girl('Anya',25,38),
+//     new Girl('Lena',25,39),
+//     new Girl('Olya',25,40)
+// ];
+// const prince = new Prince('Jora',32,35);
+// prince.search(girls);
